@@ -1,2 +1,2 @@
 # TechnicaPositivity
-Positivity App for Techinica 2018
+Positivity App for Technica 2018
