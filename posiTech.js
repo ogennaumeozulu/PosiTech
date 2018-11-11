@@ -11,7 +11,7 @@ function clickyBoi(){
 var arr = [1, 2, 3, 4, 5];
 var options = [0, 1]
 arr.forEach(randomEntry(options)){
-
+  console.log
 };
 
 
