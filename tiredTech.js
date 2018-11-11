@@ -12,7 +12,7 @@ var tiredReflection = ['Your hard work is always valued.',
   'You might function better if you\'re well rested!'];
 var tiredAction = ['Try going to bed earlier!',
   'Get enough sleep! Make sure you are well rested!'];
-var tiredExercise = ['Take a nap! You’ll feel better when you wake up!',
+var tiredExercise = ['Take a nap! You\'ll feel better when you wake up!',
 'Try eating something and drinking some water. Maybe you\'ll feel better!'];
 var tiredPositive = ['Keep your face to the sunshine and you cannot see a shadow. - Helen Keller',
 'Everything is going to be okay in the end. If it\'s not okay, then it means it\'s not the end. - John Lennon'];
