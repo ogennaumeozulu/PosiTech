@@ -12,7 +12,7 @@ var stressedReflection = ['Is what is causing you to be stressed temporary?',
   'Can you completely avoid the stressor?'];
 var stressedAction = ['Make a list of stressors and what you can do to get through them!',
   'Talk to someone about your feelings!'];
-var stressedExercise = ['Do some yoga! It won\’t hurt to try!',
+var stressedExercise = ['Do some yoga! It won\'t hurt to try!',
   'Meditate! Take some time to relax and be free from any worries!'];
 var stressedPositive = ['Yesterday is not ours to recover, but tomorrow is ours to win or lose. - Lyndon B. Johnson',
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
@@ -33,35 +33,51 @@ function getStressedPositive(){
   document.getElementById("stressedPositive").innerHTML = randomEntry(stressedPositive);
 }
 
+getStressedQuotes();
+getStressedReflection();
+getStressedAction();
+getStressedExercise();
+getStressedPositive();
+
+
+
+
 
 //LOST/DOUBTFUL
 
-var lostQuotes =['Sometimes the bad things that happen in our lives put us directly on the path to the best things that will ever happen to us. - Nicole Reed',
-  'Sometimes, you have to stop thinking so much and just go where your heart takes you. - Ben Francia'];
-var lostReflection = ['What do you feel is missing?',
-  'Where or when do you feel most comfortable or certain about yourself?'];
-var lostAction = ['Share your thoughts with someone you trust!',
-  'Set short-term goals that are easy to accomplish.'];
-var lostExercise = ['Meditate! Take some time to relax and be free from any worries.',
-  'Try something new! It\’s okay to be outside of your comfort zone.'];
-var lostPositive = ['Everything is going to be okay in the end. If it\’s not okay, then it means it\’s not the end. - John Lennon',
-  'Say yes. You\’ll figure it out afterward. - Tina Fey'];
+// var lostQuotes =['Sometimes the bad things that happen in our lives put us directly on the path to the best things that will ever happen to us. - Nicole Reed',
+//   'Sometimes, you have to stop thinking so much and just go where your heart takes you. - Ben Francia'];
+// var lostReflection = ['What do you feel is missing?',
+//   'Where or when do you feel most comfortable or certain about yourself?'];
+// var lostAction = ['Share your thoughts with someone you trust!',
+//   'Set short-term goals that are easy to accomplish.'];
+// var lostExercise = ['Meditate! Take some time to relax and be free from any worries.',
+//   'Try something new! It\’s okay to be outside of your comfort zone.'];
+// var lostPositive = ['Everything is going to be okay in the end. If it\’s not okay, then it means it\’s not the end. - John Lennon',
+//   'Say yes. You\’ll figure it out afterward. - Tina Fey'];
+//
+// function getLostQuotes(){
+//   document.getElementById("lostQuotes").innerHTML = randomEntry(lostQuotes);
+// }
+// function getLostReflection(){
+//   document.getElementById("lostReflection").innerHTML = randomEntry(lostReflection);
+// }
+// function getLostAction(){
+//   document.getElementById("lostAction").innerHTML = randomEntry(lostAction);
+// }
+// function getLostExercise(){
+//   document.getElementById("lostExercise").innerHTML = randomEntry(lostExercise);
+// }
+// function getLostPositive(){
+//   document.getElementById("lostPositive").innerHTML = randomEntry(lostPositive);
+// }
+//
+// getLostQuotes();
+// getLostReflection();
+// getLostAction();
+// getLostExercise();
+// getLostPositive();
 
-function getLostQuotes(){
-  document.getElementById("lostQuotes").innerHTML = randomEntry(lostQuotes);
-}
-function getLostReflection(){
-  document.getElementById("lostReflection").innerHTML = randomEntry(lostReflection);
-}
-function getLostAction(){
-  document.getElementById("lostAction").innerHTML = randomEntry(lostAction);
-}
-function getLostExercise(){
-  document.getElementById("lostExercise").innerHTML = randomEntry(lostExercise);
-}
-function getLostPositive(){
-  document.getElementById("lostPositive").innerHTML = randomEntry(lostPositive);
-}
 
 //CONFUSED/Indecisive
 var confusedQuotes = ['When you have to make a choice and don\'t make it, that is in itself a choice - William James',
@@ -91,6 +107,13 @@ function getConfusedPositive(){
   document.getElementById("confusedPositive").innerHTML = randomEntry(confusedPositive);
 }
 
+getConfusedQuotes();
+getConfusedReflection();
+getConfusedAction();
+getConfusedExercise();
+getConfusedPositive();
+
+
 //JOYFUL
 var joyfulQuotes = ['When you are enthusiastic about what you do, you feel this positive energy. It\'s very simple. - Paulo Coelho',
   'Positive thinking will let you use the ability which you have, and that is awesome. - Zig Ziglar'];
@@ -118,17 +141,23 @@ function getJoyfulPositive(){
   document.getElementById("joyfulPositive").innerHTML = randomEntry(joyfulPositive);
 }
 
+getJoyfulQuotes();
+getJoyfulReflection();
+getJoyfulAction();
+getJoyfulExercise();
+getJoyfulPositive();
+
 //TIRED
 var tiredQuotes = ['Perseverance is the hard work you do after you get tired of doing the hard work you already did. - Newt Gingrich',
   'Just remember, you can do anything you set your mind to, but it takes action, perseverance, and facing your fears. - Gillian Anderson'];
 var tiredReflection = ['Your hard work is always valued.',
-  'You might function better if you\’re well rested!'];
+  'You might function better if you\'re well rested!'];
 var tiredAction = ['Try going to bed earlier!',
   'Get enough sleep! Make sure you are well rested!'];
 var tiredExercise = ['Take a nap! You’ll feel better when you wake up!',
-'Try eating something and drinking some water. Maybe you\’ll feel better!'];
+'Try eating something and drinking some water. Maybe you\'ll feel better!'];
 var tiredPositive = ['Keep your face to the sunshine and you cannot see a shadow. - Helen Keller',
-'Everything is going to be okay in the end. If it\’s not okay, then it means it\’s not the end. - John Lennon'];
+'Everything is going to be okay in the end. If it\'s not okay, then it means it\'s not the end. - John Lennon'];
 
 function getTiredQuotes(){
   document.getElementById("tiredQuotes").innerHTML = randomEntry(tiredQuotes);
@@ -146,6 +175,11 @@ function getTiredPositive(){
   document.getElementById("tiredPositive").innerHTML = randomEntry(tiredPositive);
 }
 
+getTiredQuotes();
+getTiredReflection();
+getTiredAction();
+getTiredExercise();
+getTiredPositive();
 
 function randomEntry(array){
 
@@ -153,35 +187,3 @@ function randomEntry(array){
   return array[randomNumber];
 
 }
-
-getStressedQuotes();
-getStressedReflection();
-getStressedAction();
-getStressedExercise();
-getStressedPositive();
-
-
-
-getLostQuotes();
-getLostReflection();
-getLostAction();
-getLostExercise();
-getLostPositive();
-
-getConfusedQuotes();
-getConfusedReflection();
-getConfusedAction();
-getConfusedExercise();
-getConfusedPositive();
-
-getJoyfulQuotes();
-getJoyfulReflection();
-getJoyfulAction();
-getJoyfulExercise();
-getJoyfulPositive();
-
-getTiredQuotes();
-getTiredReflection();
-getTiredAction();
-getTiredExercise();
-getTiredPositive();
