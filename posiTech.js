@@ -26,12 +26,12 @@ function getStressedReflection(){
 function getStressedAction(){
   document.getElementById("stressedAction").innerHTML = randomEntry(stressedAction);
 }
-// function getStressedQuotes(){
-//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-// }
-// function getStressedQuotes(){
-//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-// }
+function getStressedExercise(){
+  document.getElementById("stressedExercise").innerHTML = randomEntry(stressedExercise);
+}
+function getStressedPositive(){
+  document.getElementById("stressedPositive").innerHTML = randomEntry(stressedPositive);
+}
 
 
 //LOST/DOUBTFUL
@@ -103,3 +103,29 @@ getStressedReflection();
 getStressedAction();
 getStressedExercise();
 getStressedPositive();
+
+
+
+getLostQuotes();
+getLostReflection();
+getLostAction();
+getLostExercise();
+getLostPositive();
+
+getConfusedQuotes();
+getConfusedReflection();
+getConfusedAction();
+getConfusedExercise();
+getConfusedPositive();
+
+getJoyfulQuotes();
+getJoyfulReflection();
+getJoyfulAction();
+getJoyfulExercise();
+getJoyfulPositive();
+
+getTiredQuotes();
+getTiredReflection();
+getTiredAction();
+getTiredExercise();
+getTiredPositive();
