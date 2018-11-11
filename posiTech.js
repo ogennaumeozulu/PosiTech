@@ -20,6 +20,20 @@ var stressedPositive = ['Yesterday is not ours to recover, but tomorrow is ours 
 function getStressedQuotes(){
   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
 }
+function getstressedReflection(){
+  document.getElementById("stressedReflection").innerHTML = randomEntry(stressedReflection);
+}
+function getStressedQuotes(){
+  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+}
+function getStressedQuotes(){
+  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+}
+function getStressedQuotes(){
+  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+}
+
+
 //LOST/DOUBTFUL
 
 var lostQuotes =['Sometimes the bad things that happen in our lives put us directly on the path to the best things that will ever happen to us. - Nicole Reed',
@@ -85,3 +99,4 @@ function randomEntry(array){
 }
 
 getStressedQuotes();
+getstressedReflection();
