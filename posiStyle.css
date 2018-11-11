@@ -1,1 +1,21 @@
-        1 file(s) copied.
+
+button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #39E6F0
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+Background-color: #dab3ff
+}
+
+img {
+  height: 100px;
+
+}
