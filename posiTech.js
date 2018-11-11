@@ -17,6 +17,9 @@ var stressedExercise = ['Do some yoga! It won’t hurt to try!',
 var stressedPositive = ['Yesterday is not ours to recover, but tomorrow is ours to win or lose. - Lyndon B. Johnson',
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
 
+function getStressedQuotes(){
+  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+}
 //LOST/DOUBTFUL
 
 var lostQuotes =['Sometimes the bad things that happen in our lives put us directly on the path to the best things that will ever happen to us. - Nicole Reed',
@@ -41,7 +44,6 @@ var confusedExercise = ['Take a nap! You might wake up with a clearer head!',
   'Go on a run! You might be able to use the time to think!'];
 var confusedPositive = ['Your positive action combined with positive thinking results in success. - Shiv Khera',
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
-
 
 
 //JOYFUL
@@ -70,23 +72,16 @@ var tiredPositive = ['Keep your face to the sunshine and you cannot see a shadow
 
 
 
-if (randomEntry == 0){
-  sdfkljsad print(stressedQuotes[0])
-} else {
-  print
-}
 
-var arr = [1, 2, 3, 4, 5];
-var options = [0, 1]
-arr.forEach(randomEntry(options)){
-  console.log
-};
 
 
 
 
 function randomEntry(array){
 
-  var randomNumber = Math.round(Math.random()*array.length);
+  var randomNumber = Math.round(Math.random()*(array.length - 1));
   return array[randomNumber];
+
 }
+
+getStressedQuotes();
