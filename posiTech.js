@@ -23,15 +23,15 @@ function getStressedQuotes(){
 function getstressedReflection(){
   document.getElementById("stressedReflection").innerHTML = randomEntry(stressedReflection);
 }
-function getStressedQuotes(){
-  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-}
-function getStressedQuotes(){
-  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-}
-function getStressedQuotes(){
-  document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-}
+// function getStressedQuotes(){
+//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+// }
+// function getStressedQuotes(){
+//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+// }
+// function getStressedQuotes(){
+//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
+// }
 
 
 //LOST/DOUBTFUL
