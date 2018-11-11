@@ -18,6 +18,7 @@ var stressedPositive = ['Yesterday is not ours to recover, but tomorrow is ours 
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
 
 //LOST/DOUBTFUL
+
 var lostQuotes =['Sometimes the bad things that happen in our lives put us directly on the path to the best things that will ever happen to us. - Nicole Reed',
   'Sometimes, you have to stop thinking so much and just go where your heart takes you. - Ben Francia'];
 var lostReflection = ['What do you feel is missing?',
@@ -41,11 +42,31 @@ var confusedExercise = ['Take a nap! You might wake up with a clearer head!',
 var confusedPositive = ['Your positive action combined with positive thinking results in success. - Shiv Khera',
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
 
+
+
 //JOYFUL
+var joyfulQuotes = ['When you are enthusiastic about what you do, you feel this positive energy. It\'s very simple. - Paulo Coelho',
+  'Positive thinking will let you use the ability which you have, and that is awesome. - Zig Ziglar'];
+var joyfulReflection = ['What makes you happy? Try to do it more often!',
+  'What do you need to do in order to stay happy?'];
+var joyfulAction = ['Remember that yesterday was a good day!',
+  'Keep smiling!'];
+var joyfulExercises = ['Go on a run!', 'Meditate!'];
+var joyfulPositive = ['If you\'re not making mistakes, then you\'re not doing anything. I\'m positive that a doer makes mistakes. - John Wooden',
+  'I have learned that champions aren\'t just born; champions can be made when they embrace and commit to life-changing positive habits. - Lewis Howes'];
 
 
 //TIRED
-
+var tiredQuotes = ['Perseverance is the hard work you do after you get tired of doing the hard work you already did. - Newt Gingrich',
+  'Just remember, you can do anything you set your mind to, but it takes action, perseverance, and facing your fears. - Gillian Anderson'];
+var tiredReflection = ['Your hard work is always valued.',
+  'You might function better if you’re well rested!'];
+var tiredAction = ['Try going to bed earlier!',
+  'Get enough sleep! Make sure you are well rested!'];
+var tiredExercises = ['Take a nap! You’ll feel better when you wake up!',
+'Try eating something and drinking some water. Maybe you’ll feel better!'];
+var tiredPositive = ['Keep your face to the sunshine and you cannot see a shadow. - Helen Keller',
+'Everything is going to be okay in the end. If it’s not okay, then it means it’s not the end. - John Lennon'];
 
 
 
