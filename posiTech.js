@@ -23,9 +23,9 @@ function getStressedQuotes(){
 function getStressedReflection(){
   document.getElementById("stressedReflection").innerHTML = randomEntry(stressedReflection);
 }
-// function getStressedQuotes(){
-//   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
-// }
+function getStressedAction(){
+  document.getElementById("stressedAction").innerHTML = randomEntry(stressedAction);
+}
 // function getStressedQuotes(){
 //   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
 // }
@@ -42,7 +42,7 @@ var lostReflection = ['What do you feel is missing?',
   'Where or when do you feel most comfortable or certain about yourself?'];
 var lostAction = ['Share your thoughts with someone you trust!',
   'Set short-term goals that are easy to accomplish.'];
-var lotExercise = ['Meditate! Take some time to relax and be free from any worries.',
+var lostExercise = ['Meditate! Take some time to relax and be free from any worries.',
   'Try something new! It’s okay to be outside of your comfort zone.'];
 var lostPositive = ['Everything is going to be okay in the end. If it’s not okay, then it means it’s not the end. - John Lennon',
   'Say yes. You’ll figure it out afterward. - Tina Fey'];
@@ -100,3 +100,6 @@ function randomEntry(array){
 
 getStressedQuotes();
 getStressedReflection();
+getStressedAction();
+getStressedExercise();
+getStressedPositive();
