@@ -20,7 +20,7 @@ var stressedPositive = ['Yesterday is not ours to recover, but tomorrow is ours 
 function getStressedQuotes(){
   document.getElementById("stressedQuotes").innerHTML = randomEntry(stressedQuotes);
 }
-function getstressedReflection(){
+function getStressedReflection(){
   document.getElementById("stressedReflection").innerHTML = randomEntry(stressedReflection);
 }
 // function getStressedQuotes(){
@@ -99,4 +99,4 @@ function randomEntry(array){
 }
 
 getStressedQuotes();
-getstressedReflection();
+getStressedReflection();
