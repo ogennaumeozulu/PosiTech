@@ -47,6 +47,22 @@ var lostExercise = ['Meditate! Take some time to relax and be free from any worr
 var lostPositive = ['Everything is going to be okay in the end. If it’s not okay, then it means it’s not the end. - John Lennon',
   'Say yes. You’ll figure it out afterward. - Tina Fey'];
 
+function getLostQuotes(){
+  document.getElementById("lostQuotes").innerHTML = randomEntry(lostQuotes);
+}
+function getLostReflection(){
+  document.getElementById("lostReflection").innerHTML = randomEntry(lostReflection);
+}
+function getLostAction(){
+  document.getElementById("lostAction").innerHTML = randomEntry(lostAction);
+}
+function getLostExercise(){
+  document.getElementById("lostExercise").innerHTML = randomEntry(lostExercise);
+}
+function getLostPositive(){
+  document.getElementById("lostPositive").innerHTML = randomEntry(lostPositive);
+}
+
 //CONFUSED/Indecisive
 var confusedQuotes = ['When you have to make a choice and don\'t make it, that is in itself a choice - William James',
   'Make bold choices and make mistakes. It\'s all those things that add up to the person you become. - Angelina Jolie'];
@@ -59,6 +75,21 @@ var confusedExercise = ['Take a nap! You might wake up with a clearer head!',
 var confusedPositive = ['Your positive action combined with positive thinking results in success. - Shiv Khera',
   'Under any circumstance, simply do your best, and you will avoid self-judgment, self-abuse and regret. - Don Miguel Ruiz'];
 
+function getConfusedQuotes(){
+  document.getElementById("confusedQuotes").innerHTML = randomEntry(confusedQuotes);
+}
+function getConfusedReflection(){
+  document.getElementById("confusedReflection").innerHTML = randomEntry(confusedReflection);
+}
+function getConfusedAction(){
+  document.getElementById("confusedAction").innerHTML = randomEntry(confusedAction);
+}
+function getConfusedExercise(){
+  document.getElementById("confusedExercise").innerHTML = randomEntry(confusedExercise);
+}
+function getConfusedPositive(){
+  document.getElementById("confusedPositive").innerHTML = randomEntry(confusedPositive);
+}
 
 //JOYFUL
 var joyfulQuotes = ['When you are enthusiastic about what you do, you feel this positive energy. It\'s very simple. - Paulo Coelho',
@@ -71,6 +102,21 @@ var joyfulExercises = ['Go on a run!', 'Meditate!'];
 var joyfulPositive = ['If you\'re not making mistakes, then you\'re not doing anything. I\'m positive that a doer makes mistakes. - John Wooden',
   'I have learned that champions aren\'t just born; champions can be made when they embrace and commit to life-changing positive habits. - Lewis Howes'];
 
+function getJoyfulQuotes(){
+  document.getElementById("joyfulQuotes").innerHTML = randomEntry(joyfulQuotes);
+}
+function getJoyfulReflection(){
+  document.getElementById("joyfulReflection").innerHTML = randomEntry(joyfulReflection);
+}
+function getJoyfulAction(){
+  document.getElementById("joyfulAction").innerHTML = randomEntry(joyfulAction);
+}
+function getJoyfulExercises(){
+  document.getElementById("joyfulExercises").innerHTML = randomEntry(joyfulExercises);
+}
+function getJoyfulPositive(){
+  document.getElementById("joyfulPositive").innerHTML = randomEntry(joyfulPositive);
+}
 
 //TIRED
 var tiredQuotes = ['Perseverance is the hard work you do after you get tired of doing the hard work you already did. - Newt Gingrich',
@@ -84,11 +130,21 @@ var tiredExercises = ['Take a nap! You’ll feel better when you wake up!',
 var tiredPositive = ['Keep your face to the sunshine and you cannot see a shadow. - Helen Keller',
 'Everything is going to be okay in the end. If it’s not okay, then it means it’s not the end. - John Lennon'];
 
-
-
-
-
-
+function getTiredQuotes(){
+  document.getElementById("tiredQuotes").innerHTML = randomEntry(tiredQuotes);
+}
+function getTiredReflection(){
+  document.getElementById("tiredReflection").innerHTML = randomEntry(tiredReflection);
+}
+function getTiredAction(){
+  document.getElementById("tiredAction").innerHTML = randomEntry(tiredAction);
+}
+function getTiredExercise(){
+  document.getElementById("tiredExercises").innerHTML = randomEntry(tiredExercises);
+}
+function getTiredPositive(){
+  document.getElementById("tiredPositive").innerHTML = randomEntry(tiredPositive);
+}
 
 
 function randomEntry(array){
