@@ -6,7 +6,13 @@ function clickyBoi(){
 
 //Stressed array
 
+var stressedQuotes = [all..for, always...come]
 
+if (randomEntry == 0){
+  sdfkljsad print(stressedQuotes[0])
+} else {
+  print
+}
 
 var arr = [1, 2, 3, 4, 5];
 var options = [0, 1]
